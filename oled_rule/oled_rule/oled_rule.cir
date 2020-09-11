@@ -1,0 +1,13 @@
+.title KiCad schematic
+ssd1360 GND VCC Net-_U1-Pad7_ Net-_U1-Pad5_ 0022232041
+HC-SR4 VCC Net-_HC-SR4-Pad2_ Net-_HC-SR4-Pad3_ GND 0022232041
+U1 NC_01 Net-_R3-Pad2_ Net-_HC-SR4-Pad2_ GND Net-_U1-Pad5_ Net-_HC-SR4-Pad3_ Net-_U1-Pad7_ VCC ATTINY85-20PU
+D2 Net-_D2-Pad1_ GND LED
+D1 Net-_D1-Pad1_ GND LED
+R1 VCC Net-_D1-Pad1_ R
+R4 Net-_HC-SR4-Pad2_ Net-_D2-Pad1_ R
+R3 GND Net-_R3-Pad2_ R
+R2 VCC Net-_R2-Pad2_ R
+J1 GND VCC 22-23-2021
+SW1 Net-_R2-Pad2_ Net-_R3-Pad2_ SW_Push
+.end

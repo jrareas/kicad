@@ -1,0 +1,18 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# arduinonano
+#
+DEF arduinonano U 0 40 Y Y 1 F N
+F0 "U" 400 900 50 H V C CNN
+F1 "arduinonano" 400 900 50 H V C CNN
+F2 "" 400 900 50 H I C CNN
+F3 "" 400 900 50 H I C CNN
+DRAW
+X D11 11 -300 -150 100 R 50 50 1 1 I
+X D12 12 -300 -100 100 R 50 50 1 1 I
+X D13 13 -300 -50 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

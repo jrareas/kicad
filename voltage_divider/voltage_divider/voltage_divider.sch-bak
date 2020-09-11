@@ -1,0 +1,69 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5F5145E0
+P 5250 3450
+F 0 "R1" V 5457 3450 50  0000 C CNN
+F 1 "1.04k" V 5366 3450 50  0000 C CNN
+F 2 "" V 5180 3450 50  0001 C CNN
+F 3 "~" H 5250 3450 50  0001 C CNN
+	1    5250 3450
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5400 3450 6050 3450
+Wire Wire Line
+	6050 4300 4600 4300
+$Comp
+L power:GND #PWR01
+U 1 1 5F515B20
+P 4600 4550
+F 0 "#PWR01" H 4600 4300 50  0001 C CNN
+F 1 "GND" H 4605 4377 50  0000 C CNN
+F 2 "" H 4600 4550 50  0001 C CNN
+F 3 "" H 4600 4550 50  0001 C CNN
+	1    4600 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4550 4600 4300
+$Comp
+L pspice:VSOURCE V1
+U 1 1 5F5191EC
+P 4000 3900
+F 0 "V1" H 4228 3946 50  0000 L CNN
+F 1 "VSOURCE" H 4228 3855 50  0000 L CNN
+F 2 "" H 4000 3900 50  0001 C CNN
+F 3 "~" H 4000 3900 50  0001 C CNN
+F 4 "V" H 4000 3900 50  0001 C CNN "Spice_Primitive"
+F 5 "dc 5" H 4000 3900 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4000 3900 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    4000 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3450 4000 3600
+Wire Wire Line
+	4000 3450 5100 3450
+Wire Wire Line
+	4600 4300 4000 4300
+Wire Wire Line
+	4000 4300 4000 4200
+Connection ~ 4600 4300
+Wire Wire Line
+	6050 3450 6050 4300
+$EndSCHEMATC

@@ -1,0 +1,131 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L dk_Embedded-Microcontrollers:ATTINY85-20PU U1
+U 1 1 5F3EE661
+P 6450 3600
+F 0 "U1" H 6678 3603 60  0000 L CNN
+F 1 "ATTINY85-20PU" H 6678 3497 60  0000 L CNN
+F 2 "digikey-footprints:DIP-8_W7.62mm" H 6650 3800 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589894" H 6650 3900 60  0001 L CNN
+F 4 "ATTINY85-20PU-ND" H 6650 4000 60  0001 L CNN "Digi-Key_PN"
+F 5 "ATTINY85-20PU" H 6650 4100 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6650 4200 60  0001 L CNN "Category"
+F 7 "Embedded - Microcontrollers" H 6650 4300 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589894" H 6650 4400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/ATTINY85-20PU/ATTINY85-20PU-ND/735469" H 6650 4500 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC MCU 8BIT 8KB FLASH 8DIP" H 6650 4600 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 6650 4700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6650 4800 60  0001 L CNN "Status"
+	1    6450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:22-23-2021 J2
+U 1 1 5F3F1619
+P 7200 4350
+F 0 "J2" H 7378 4404 50  0000 L CNN
+F 1 "22-23-2021" H 7378 4313 50  0000 L CNN
+F 2 "digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" H 7400 4550 60  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 7400 4650 60  0001 L CNN
+F 4 "WM4200-ND" H 7400 4750 60  0001 L CNN "Digi-Key_PN"
+F 5 "22-23-2021" H 7400 4850 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 7400 4950 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 7400 5050 60  0001 L CNN "Family"
+F 8 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 7400 5150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/22-23-2021/WM4200-ND/26667" H 7400 5250 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 2POS 2.54MM" H 7400 5350 60  0001 L CNN "Description"
+F 11 "Molex" H 7400 5450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7400 5550 60  0001 L CNN "Status"
+	1    7200 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:0022232041 J1
+U 1 1 5F3EF266
+P 5100 4050
+F 0 "J1" V 5291 3922 50  0000 R CNN
+F 1 "0022232041" V 5200 3922 50  0000 R CNN
+F 2 "digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 5300 4250 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 5300 4350 60  0001 L CNN
+F 4 "WM4202-ND" H 5300 4450 60  0001 L CNN "Digi-Key_PN"
+F 5 "0022232041" H 5300 4550 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 5300 4650 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 5300 4750 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 5300 4850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0022232041/WM4202-ND/26671" H 5300 4950 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 4POS 2.54MM" H 5300 5050 60  0001 L CNN "Description"
+F 11 "Molex" H 5300 5150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5300 5250 60  0001 L CNN "Status"
+	1    5100 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 4100 6900 4100
+Wire Wire Line
+	7200 4100 7200 4250
+Wire Wire Line
+	6550 3200 7300 3200
+Wire Wire Line
+	7300 3200 7300 3250
+$Comp
+L Device:CP C1
+U 1 1 5F3F7A0E
+P 7700 3400
+F 0 "C1" H 7818 3446 50  0000 L CNN
+F 1 "CP" H 7818 3355 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 7738 3250 50  0001 C CNN
+F 3 "~" H 7700 3400 50  0001 C CNN
+	1    7700 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 3250 7300 3250
+Connection ~ 7300 3250
+Wire Wire Line
+	7300 3250 7300 4250
+Wire Wire Line
+	7700 3550 6900 3550
+Wire Wire Line
+	6900 3550 6900 4100
+Connection ~ 6900 4100
+Wire Wire Line
+	6900 4100 7200 4100
+Wire Wire Line
+	6250 3600 5950 3600
+Wire Wire Line
+	5950 3600 5950 4050
+Wire Wire Line
+	5950 4050 5000 4050
+Wire Wire Line
+	6250 3500 5750 3500
+Wire Wire Line
+	5750 3500 5750 3950
+Wire Wire Line
+	5750 3950 5000 3950
+Wire Wire Line
+	6250 3400 5600 3400
+Wire Wire Line
+	5600 3400 5600 3850
+Wire Wire Line
+	5600 3850 5000 3850
+Wire Wire Line
+	6250 3900 6050 3900
+Wire Wire Line
+	6050 3900 6050 3750
+Wire Wire Line
+	6050 3750 5000 3750
+$EndSCHEMATC

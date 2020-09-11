@@ -1,0 +1,170 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:0022232041 J1
+U 1 1 5F58CB37
+P 6950 2350
+F 0 "J1" H 7328 2404 50  0000 L CNN
+F 1 "0022232041" H 7328 2313 50  0000 L CNN
+F 2 "digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 7150 2550 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 7150 2650 60  0001 L CNN
+F 4 "WM4202-ND" H 7150 2750 60  0001 L CNN "Digi-Key_PN"
+F 5 "0022232041" H 7150 2850 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 7150 2950 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 7150 3050 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 7150 3150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0022232041/WM4202-ND/26671" H 7150 3250 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 4POS 2.54MM" H 7150 3350 60  0001 L CNN "Description"
+F 11 "Molex" H 7150 3450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7150 3550 60  0001 L CNN "Status"
+	1    6950 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F58D9B3
+P 6650 3800
+F 0 "R1" H 6720 3846 50  0000 L CNN
+F 1 "R" H 6720 3755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6580 3800 50  0001 C CNN
+F 3 "~" H 6650 3800 50  0001 C CNN
+	1    6650 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5F58DDBB
+P 6450 3100
+F 0 "D1" V 6489 2982 50  0000 R CNN
+F 1 "LED" V 6398 2982 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 6450 3100 50  0001 C CNN
+F 3 "~" H 6450 3100 50  0001 C CNN
+	1    6450 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5F58EA85
+P 6650 3100
+F 0 "D2" V 6689 2982 50  0000 R CNN
+F 1 "LED" V 6598 2982 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 6650 3100 50  0001 C CNN
+F 3 "~" H 6650 3100 50  0001 C CNN
+	1    6650 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5F58EE9F
+P 6850 3100
+F 0 "D3" V 6889 2982 50  0000 R CNN
+F 1 "LED" V 6798 2982 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 6850 3100 50  0001 C CNN
+F 3 "~" H 6850 3100 50  0001 C CNN
+	1    6850 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5F58F44F
+P 7350 3100
+F 0 "D4" V 7389 2982 50  0000 R CNN
+F 1 "LED" V 7298 2982 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 7350 3100 50  0001 C CNN
+F 3 "~" H 7350 3100 50  0001 C CNN
+	1    7350 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5F58F934
+P 7550 3100
+F 0 "D5" V 7589 2982 50  0000 R CNN
+F 1 "LED" V 7498 2982 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 7550 3100 50  0001 C CNN
+F 3 "~" H 7550 3100 50  0001 C CNN
+	1    7550 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 5F58FD88
+P 7750 3100
+F 0 "D6" V 7789 2982 50  0000 R CNN
+F 1 "LED" V 7698 2982 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 7750 3100 50  0001 C CNN
+F 3 "~" H 7750 3100 50  0001 C CNN
+	1    7750 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F59084F
+P 7600 3800
+F 0 "R2" H 7670 3846 50  0000 L CNN
+F 1 "R" H 7670 3755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7530 3800 50  0001 C CNN
+F 3 "~" H 7600 3800 50  0001 C CNN
+	1    7600 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2250 6950 2950
+Wire Wire Line
+	6950 2950 6850 2950
+Wire Wire Line
+	6850 2950 6650 2950
+Connection ~ 6850 2950
+Wire Wire Line
+	6650 2950 6450 2950
+Connection ~ 6650 2950
+Wire Wire Line
+	6450 3250 6650 3250
+Wire Wire Line
+	6850 3250 6650 3250
+Connection ~ 6650 3250
+Wire Wire Line
+	6650 3250 6650 3650
+Wire Wire Line
+	6650 3950 7050 3950
+Wire Wire Line
+	7050 3950 7050 2250
+Wire Wire Line
+	7150 2250 7150 2950
+Wire Wire Line
+	7150 2950 7350 2950
+Wire Wire Line
+	7350 2950 7550 2950
+Connection ~ 7350 2950
+Wire Wire Line
+	7550 2950 7750 2950
+Connection ~ 7550 2950
+Wire Wire Line
+	7750 3250 7550 3250
+Wire Wire Line
+	7350 3250 7550 3250
+Connection ~ 7550 3250
+Wire Wire Line
+	7550 3250 7550 3650
+Wire Wire Line
+	7550 3650 7600 3650
+Wire Wire Line
+	7600 3950 8200 3950
+Wire Wire Line
+	8200 3950 8200 2250
+Wire Wire Line
+	8200 2250 7250 2250
+$EndSCHEMATC
