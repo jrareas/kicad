@@ -681,14 +681,6 @@ Connection ~ 7050 4600
 Wire Wire Line
 	6600 4600 7050 4600
 Wire Wire Line
-	6600 5600 6600 4600
-Wire Wire Line
-	6600 5600 7500 5600
-Wire Wire Line
-	7500 5600 7500 6200
-Wire Wire Line
-	7600 5500 7600 6200
-Wire Wire Line
 	6950 5500 7600 5500
 Wire Wire Line
 	6950 5250 7050 5250
@@ -698,23 +690,122 @@ Connection ~ 6950 5250
 Wire Wire Line
 	6950 5500 6950 5250
 $Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:640456-3 J7
-U 1 1 5F766E81
-P 7400 6300
-F 0 "J7" H 7678 6354 50  0000 L CNN
-F 1 "640456-3" H 7678 6263 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7600 6500 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 7600 6600 60  0001 L CNN
-F 4 "A19470-ND" H 7600 6700 60  0001 L CNN "Digi-Key_PN"
-F 5 "640456-3" H 7600 6800 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 7600 6900 60  0001 L CNN "Category"
-F 7 "Rectangular Connectors - Headers, Male Pins" H 7600 7000 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 7600 7100 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-amp-connectors/640456-3/A19470-ND/259010" H 7600 7200 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN HEADER VERT 3POS 2.54MM" H 7600 7300 60  0001 L CNN "Description"
-F 11 "TE Connectivity AMP Connectors" H 7600 7400 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7600 7500 60  0001 L CNN "Status"
-	1    7400 6300
+L dk_Clock-Timing-Programmable-Timers-and-Oscillators:NE555DR U2
+U 1 1 5F6E4887
+P 9450 5800
+F 0 "U2" H 9450 6103 60  0000 C CNN
+F 1 "NE555DR" H 9450 5997 60  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 9650 6000 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne555" H 9650 6100 60  0001 L CNN
+F 4 "296-6501-1-ND" H 9650 6200 60  0001 L CNN "Digi-Key_PN"
+F 5 "NE555DR" H 9650 6300 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 9650 6400 60  0001 L CNN "Category"
+F 7 "Clock/Timing - Programmable Timers and Oscillators" H 9650 6500 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne555" H 9650 6600 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/NE555DR/296-6501-1-ND/372490" H 9650 6700 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OSC SGL TIMER 100KHZ 8-SOIC" H 9650 6800 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 9650 6900 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9650 7000 60  0001 L CNN "Status"
+	1    9450 5800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9450 6400 8500 6400
+Wire Wire Line
+	7600 5500 7600 6400
+Wire Wire Line
+	9450 5700 9450 5400
+Wire Wire Line
+	9450 5400 9100 5400
+Wire Wire Line
+	6600 4600 6600 5400
+Wire Wire Line
+	9950 6100 9950 6500
+Wire Wire Line
+	9950 6500 7400 6500
+Wire Wire Line
+	7400 6500 7400 6200
+$Comp
+L Device:CP C5
+U 1 1 5F7630F7
+P 8500 6150
+F 0 "C5" H 8618 6196 50  0000 L CNN
+F 1 "CP" H 8618 6105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8538 6000 50  0001 C CNN
+F 3 "~" H 8500 6150 50  0001 C CNN
+	1    8500 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 6100 8850 6100
+Wire Wire Line
+	8700 6100 8700 6000
+Wire Wire Line
+	8700 6000 8500 6000
+Wire Wire Line
+	8500 6300 8500 6400
+Connection ~ 8500 6400
+Wire Wire Line
+	8500 6400 7600 6400
+Wire Wire Line
+	8950 6000 8900 6000
+Wire Wire Line
+	8850 6000 8850 6100
+Connection ~ 8850 6100
+Wire Wire Line
+	8850 6100 8700 6100
+$Comp
+L Device:R R3
+U 1 1 5F78B7B5
+P 10150 5200
+F 0 "R3" H 10220 5246 50  0000 L CNN
+F 1 "R" H 10220 5155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 10080 5200 50  0001 C CNN
+F 3 "~" H 10150 5200 50  0001 C CNN
+	1    10150 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5F78C478
+P 10400 5200
+F 0 "R4" H 10470 5246 50  0000 L CNN
+F 1 "R" H 10470 5155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 10330 5200 50  0001 C CNN
+F 3 "~" H 10400 5200 50  0001 C CNN
+	1    10400 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 5050 9100 5050
+Wire Wire Line
+	9100 5050 9100 5400
+Connection ~ 9100 5400
+Wire Wire Line
+	9100 5400 8950 5400
+Wire Wire Line
+	10150 5350 10150 5700
+Wire Wire Line
+	10150 6000 9950 6000
+Wire Wire Line
+	10400 5350 10400 5700
+Wire Wire Line
+	10400 5700 10150 5700
+Connection ~ 10150 5700
+Wire Wire Line
+	10150 5700 10150 6000
+Wire Wire Line
+	10400 5050 10400 4850
+Wire Wire Line
+	10400 4850 8900 4850
+Wire Wire Line
+	8900 4850 8900 6000
+Connection ~ 8900 6000
+Wire Wire Line
+	8900 6000 8850 6000
+Wire Wire Line
+	8950 5900 8950 5400
+Connection ~ 8950 5400
+Wire Wire Line
+	8950 5400 6600 5400
 $EndSCHEMATC
