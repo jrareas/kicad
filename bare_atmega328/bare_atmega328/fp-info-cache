@@ -1,4 +1,4 @@
-20106492462565171
+20103301327314171
 2N2222
 TO127P584H533-3
 
@@ -85357,20 +85357,6 @@ varistor SIOV
 0
 2
 2
-arduino_nano
-NANO_33_Footprint_SMD_Castell
-Through hole straight socket strip, 1x15, 2.54mm pitch
-Through hole socket strip THT 1x15 2.54mm single row
-0
-30
-30
-arduino_nano
-NANO_33_Socket_Castell
-Through hole straight socket strip, 1x15, 2.54mm pitch
-Through hole socket strip THT 1x15 2.54mm single row
-0
-90
-30
 digikey-footprints
 3-SIP_Module_TM1000Q
 

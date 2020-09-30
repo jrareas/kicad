@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Atmega328 + 555"
 Date ""
-Rev ""
+Rev "V1.2"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Jose Areas"
 $EndDescr
 $Comp
 L power:GND #PWR0101
@@ -232,7 +232,7 @@ U 1 1 5F575CC1
 P 8400 5100
 F 0 "D1" V 8347 5180 50  0000 L CNN
 F 1 "LED" V 8438 5180 50  0000 L CNN
-F 2 "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 8400 5100 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8400 5100 50  0001 C CNN
 F 3 "~" H 8400 5100 50  0001 C CNN
 	1    8400 5100
 	0    1    1    0   
@@ -242,7 +242,7 @@ L Device:R R2
 U 1 1 5F5760CB
 P 8400 4550
 F 0 "R2" H 8470 4596 50  0000 L CNN
-F 1 "R" H 8470 4505 50  0000 L CNN
+F 1 "220" H 8470 4505 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8330 4550 50  0001 C CNN
 F 3 "~" H 8400 4550 50  0001 C CNN
 	1    8400 4550
@@ -689,7 +689,7 @@ L Device:R R4
 U 1 1 5F7AE97E
 P 10500 5450
 F 0 "R4" H 10570 5496 50  0000 L CNN
-F 1 "R" H 10570 5405 50  0000 L CNN
+F 1 "1M" H 10570 5405 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 10430 5450 50  0001 C CNN
 F 3 "~" H 10500 5450 50  0001 C CNN
 	1    10500 5450
@@ -700,7 +700,7 @@ L Device:R R3
 U 1 1 5F7AEEC4
 P 9000 5550
 F 0 "R3" H 9070 5596 50  0000 L CNN
-F 1 "R" H 9070 5505 50  0000 L CNN
+F 1 "220" H 9070 5505 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8930 5550 50  0001 C CNN
 F 3 "~" H 9000 5550 50  0001 C CNN
 	1    9000 5550
@@ -795,9 +795,6 @@ Wire Wire Line
 Connection ~ 7550 4750
 Wire Wire Line
 	7550 4750 7550 4850
-Wire Wire Line
-	9850 5650 9650 5650
-Connection ~ 9650 5650
 Wire Wire Line
 	9000 5400 10250 5400
 Wire Wire Line
